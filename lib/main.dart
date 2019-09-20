@@ -118,7 +118,7 @@ class _DefaultState extends State<DefaultPage> with WidgetsBindingObserver {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _changeClickNum();
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>PageAWidget()));
+//          Navigator.push(context, MaterialPageRoute(builder: (context)=>PageAWidget()));
         },
         //onPressed: ()=>,
         tooltip: 'ToPageA',
